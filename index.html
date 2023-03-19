@@ -13,142 +13,213 @@
             <img id="scroll_down" src="images/scroll_down.png" data-section="aboutMe">
             <div id="main-page-container">
                 <div id="greeting">
-                    <img class="self-portrait" src="images/dsc0282.jpg">
+                    <!-- <img class="self-portrait" src="images/profile4.jpg"> -->
                     <p id="name">Timotei C. Jugariu</p>
-                    <p id="description">Embedded Software Engineer</p>  
+                    <div id="description">
+                        <div class="whiteline"></div>
+                        <p id="job-title">Computer Scientist</p>
+                        <div class="whiteline"></div>
+                    </div>
+                    
                 </div>
-                <div id="menu_button">
-                    <div class="menu_buttons" data-section="aboutMe">About Me</div>
-                    <div class="menu_buttons" data-section="resume">Resume</div>
-                    <div class="menu_buttons" data-section="contactMe">Contact</div>
-                    <div class="menu_buttons" data-section="projects">Projects</div>
-                </div>
+                <nav class="nav_menu">
+                    <a href="#aboutMe">About Me</a><a href="#contactMe">Contact</a><a href="#timeline">Timeline</a>
+                    <div class="dot"></div>
+                </nav>
             </div>
             <div id="media-icons">
                     <img style="width:15px; height:50px; margin-top:20px" src="images/line.png">
-                    <a href="https://www.facebook.com/timo.jugariu" class="media-icon"><img src="images/facebook-icon.png"></a>
+                    <!-- <a href="https://www.facebook.com/timo.jugariu" class="media-icon"><img src="images/facebook-icon.png"></a> -->
                     <a href="https://www.linkedin.com/in/jtimotei/" class="media-icon"><img src="images/linkedin-icon.png"></a>
                     <a href="https://www.github.com/jtimotei" class="media-icon"><img src="images/github-icon.png"></a>
                     
             </div>
         </div>
-        <div id="navbar">
-            <div class="navbar_buttons" data-section="aboutMe">About Me</div>
-            <div class="navbar_buttons" data-section="resume">Resume</div>
-            <div class="navbar_buttons" data-section="contactMe">Contact</div>
-            <div class="navbar_buttons" data-section="projects">Projects</div>
-        </div>
         <div class="page" id="aboutMe">
             <div class="container">
                 <p class="page-title">About Me</p>
-                <div class="page-content">  
-                    Greetings! They call me Timo and I'm half romanian and half dutch born and raised in the mystical region of Transylvania. I moved to the Netherlands when I became 18 and spent one year working part-time and studying the dutch language as it was a requirement for enrolling. 
-                    From 2016 to 2020, I followed the Computer Science and Engineering bachelor at the Delft University of Technology which at the time ranked 52th worldwide on the QS rankings. For my minor (around 30 EC of my 185 EC bachelor), I composed my own program selecting challenging
-                    courses from the Aerospace Engineering curriculum and ehmm ... that turned out to be a mistake. Some were too difficult but I managed to pull through albeit at the cost of one year delay. I followed my bachelor with a masters in Embedded Systems with a specialization in networking 
-                    and software engineering.
+                <div class="page-content">
+                    <div id="profile-card"><img src="images/dsc0282.jpg"/></div>
+                    <div id="aboutMe-description">
+                        Greetings! They call me Timo and I'm half romanian and half dutch, born and raised in the mystical region of Transylvania. I moved to the Netherlands when I became 19 and started studying at the Delft University of Technology in 2016. 
+                        I like to believe that I have an academic mindset, a versatile skill-set and a broad knowledge on the field of Computer Science. I have a specialization in Embedded and Networked Systems, but I could fill many roles within the IT industry:
+                        full-stack developer, embedded systems engineer, data engineer, network engineer, etc. <br><br>
+                        In terms of personality, I have a structured and result-oriented approach to work. Nevertheless, I care about the details and I spend a fair share of time perfecting the non-functional aspects of what I am working on.
+                        Having worked together with many different types of people, I have become an effective communicator and a little less stubborn (I'm still working on it).
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="page" id="resume">
-            <div class="container">
-                <p class="page-title">Resume</p>
-                <div class="cv-section">
-                    <p class="cv-section-title">Experience</p>
-                    <div class="cv-section-content">
-                        <div class="cv-item">
-                            <p>Front-end developer at Stantec, Delft, the Netherlands</p>
-                            <p class="cv-item-description">January 2020 - May 2020</p>
-                        </div>
-                        <div class="cv-item">
-                                <p>Software Developer at Formula Student Team Delft</p>
-                                <p class="cv-item-description">September 2018 - September 2019</p>
-                         </div>
-                        <div class="cv-item">
-                            <p>Teaching Assistant at Delft University of Technology</p>
-                            <p class="cv-item-description">February 2018 - present</p>
-                        </div>
-                        <div class="cv-item">
-                            <p>Software Developer Intern at Stabiplan</p>
-                            <p class="cv-item-description">June 2018 - September 2018</p>
-                        </div>
-                        <div class="cv-item">
-                            <p>Order picker at Boon Sliedrecht</p>
-                            <p class="cv-item-description">September 2015 - April 2017</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="cv-section">
-                    <p class="cv-section-title">Education</p>
-                    <div class="cv-section-content">
-                        <div class="cv-item">
-                            MSc in Embedded Systems at the Delft University of Technology 
-                            <p class="cv-item-description">September 2020 - present</p>
-                        </div>
-                    </div>
-                    <div class="cv-section-content">
-                        <div class="cv-item">
-                            Minor in Spaceflight at the Delft University of Technology 
-                            <p class="cv-item-description">September 2016 - present</p>
-                        </div>
-                    </div>
-                    <div class="cv-section-content">
-                        <div class="cv-item">
-                            BSc. Computer Science and Engineering at the Delft University of Technology 
-                            <p class="cv-item-description">September 2016 - present</p>
-                        </div>
-                    </div>
-                    <div class="cv-section-content">
-                            <div class="cv-item">
-                                "Grigore Moisil" National College of Computer Science 
-                                <p class="cv-item-description">September 2011 - June 2015</p>
-                            </div>
-                    </div>
-                </div>
-                <a href="resources/CV_english.pdf" download> Download CV </a>
-            </div>
         </div>
         <div class="page" id="contactMe">
             <div class="container">
                     <p class="page-title">Contact</p>
                     <div class="page-content"> 
                         <div class="contact-card">
+                                <img src="images/location-icon.png">
+                                <p class="card-title">Location</p>
+                                <p class="card-description">Delft, the Netherlands</p>
+                        </div> 
+                        <div class="contact-card">
                             <img src="images/mail-icon.png">
                             <p class="card-title">Email address</p>
                             <p class="card-description">timotei96@gmail.com</p>
                         </div> 
                         <div class="contact-card">
-                            <img src="images/phone-icon.png">
-                            <p class="card-title">Phone nr.</p>
-                            <p class="card-description">+31 6256456</p>
-                        </div>
-                        <div class="contact-card">
-                                <img src="images/location-icon.png">
-                                <p class="card-title">Location</p>
-                                <p class="card-description">Zwijndrecht, the Netherlands</p>
-                        </div> 
+                            <img src="images/discord-icon.png">
+                            <p class="card-title">Discord</p>
+                            <p class="card-description">Timo#1552</p>
+                    </div> 
                     </div>
             </div>
         </div>
-        <div class="page" id="projects">
+        <div class="page" id="timeline">
             <div class="container">
-                <p class="page-title">Projects</p>
-                <div class="page-content"> 
-                    <a href="https://www.fsteamdelft.nl/" class="project-card">
-                            <p class="project-title">DUT19</p>
-                            <p class="project-description">
-                                    Together with a team of about 80 people we built a very quick and good looking electric formula, competing with it at three Formula Student events.
-                                    Formula Student competitions are very large events where numerous teams present the cars that they have worked for an entire year. The car is tested in a series of static and dynamic events. The car's acceleration,
-                                    efficiency, durability, overall design, production cost are all important aspects that are considered during the events.
-                                    Our car can accelerate to 100 km/h in about 2.5 seconds! My task as a software engineer was mostly to maintain and test the code that ran on the main Electronic Control Unit.
-                                
-                            </p>
-                    </a>
-                </div> 
+                <p class="page-title">Timeline</p>
+                <div class="page-content">
+                    <section id="cd-timeline" class="cd-container">
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-education">
+                                <img src="images/university.png">
+                            </div>
+                
+                            <div class="cd-timeline-content">
+                                <h2>MSc Embedded Systems</h2>
+                                <p class="cd-timeline-location">Delft University of Technology</p>
+                                <p>
+                                    The ES master offers a lot of flexibility and a diverse pool of courses to choose from. I chose for a specialisation in networking and software engineering. 
+                                </p>
+                                <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                <span class="cd-date">September 2020 - present</span>
+                            </div>
+                        </div>
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-experience">
+                                <img src="images/suitcase-icon.png">
+                            </div>
+                
+                            <div class="cd-timeline-content">
+                                <h2>Web Developer</h2>
+                                <p class="cd-timeline-location">Stantec, Delft, The Netherlands</p>
+                                <p>
+                                    Stantec needed a flexible web developer to implement a new feature to Stantec's Soil Risk Map application and improve other parts of the existing codebase.
+                                </p>
+                                <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                <span class="cd-date">January 2020 - May 2020</span>
+                            </div>
+                        </div>
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-experience">
+                                <img src="images/suitcase-icon.png">
+                            </div>
+                
+                            <div class="cd-timeline-content">
+                                <h2>Teaching Assistant</h2>
+                                <p class="cd-timeline-location">Delft University of Technology</p>
+                                <p>
+                                    I have assisted the courses on Web and Database Technology (2019, 2020) and Algorithms and Data Structures (2018). My resposibilities were to asist students
+                                    during tutorials, grade assignments and even exams.
+                                </p>
+                                <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                <span class="cd-date">January 2020 - May 2020</span>
+                            </div>
+                        </div>
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-experience">
+                                <img src="images/suitcase-icon.png">
+                            </div>
+                
+                            <div class="cd-timeline-content">
+                                <h2>Embedded Software Developer</h2>
+                                <p class="cd-timeline-location">Formula Student Team Delft, The Netherlands</p>
+                                <p>
+                                    As a part-time software engineer I maintained and tested the C/C++ code running on the DUT19's main Electronic Control Unit. 
+                                    The DUT19 is an eletric single-seater build and designed by a team of around 80 students. We won the Formula Student Netherlands competition in 2019.
+                                </p>
+                                <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                <span class="cd-date">September 2018 - August 2019</span>
+                            </div>
+                        </div>
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-experience">
+                                <img src="images/suitcase-icon.png">
+                            </div>
+                
+                            <div class="cd-timeline-content">
+                                <h2>Software Developer Intern</h2>
+                                <p class="cd-timeline-location">Stabiplan (Trimble), Brașov, Romania</p>
+                                <p>
+                                    During this summer internship, I worked full time on the entire software stack while being mentored by the seniors in my team.
+                                </p>
+                                <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                <span class="cd-date">July 2018 - September 2019</span>
+                            </div>
+                        </div>
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-education">
+                                <img src="images/university.png">
+                            </div>
+                
+                            <div class="cd-timeline-content">
+                                <h2>Minor in Spaceflight</h2>
+                                <p class="cd-timeline-location">Delft University of Technology</p>
+                                <p>
+                                    My interest with spaceflight has driven me to follow a minor at the Aerospace Engineering faculty where I studied:
+                                    Spaceflight technical primer, Spacecraft technology, Astronomical & Planetary Exploration, Earth Observation, Aerospace Systems and Controls, Signal Analysis and Telecommunication Principles, Aerospace Design and System Engineering Elements.<br>
+                                    It was a very challenging minor but I pulled through, albeit with some delays.
+                                </p>
+                                <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                <span class="cd-date">September 2019 - July 2020</span>
+                            </div>
+                        </div>
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-education">
+                                <img src="images/university.png">
+                            </div>
+                
+                            <div class="cd-timeline-content">
+                                <h2>BSc Computer Science</h2>
+                                <p class="cd-timeline-location">Delft University of Technology</p>
+                                <p>
+                                    The curriculum was very broad covering many topics from software engineering to artificial intelligence. The electives I chose were on Operating Systems, Digital Logic and Embedded Software. Additionally, I followed Big Data Processing for extra credit.
+                                </p>
+                                <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                <span class="cd-date">September 2016 - July 2020</span>
+                            </div>
+                        </div>
+
+
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-experience">
+                                <img src="images/suitcase-icon.png">
+                            </div>
+                
+                            <div class="cd-timeline-content">
+                                <h2>Orderpicker</h2>
+                                <p class="cd-timeline-location">Boon Sliedrecht BV, The Netherlands</p>
+                                <p>
+                                    My first job in the Netherlands was working as an order picker in a large distribution center.
+                                </p>
+                                <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+                                <span class="cd-date">October 2015 - April 2017</span>
+                            </div>
+                        </div>
+                    
+                    
+                    </section>
+                </div>
             </div>
         </div>
         <div class="page" id="footer">
             <div id="media-icons-footer">
-                <a href="https://www.facebook.com/timo.jugariu" class="media-icon-footer"><img src="images/facebook-icon.png"></a>
+                <!-- <a href="https://www.facebook.com/timo.jugariu" class="media-icon-footer"><img src="images/facebook-icon.png"></a> -->
                 <a href="https://www.linkedin.com/in/jtimotei/" class="media-icon-footer"><img src="images/linkedin-icon.png"></a>
                 <a href="https://www.github.com/jtimotei" class="media-icon-footer"><img src="images/github-icon.png"></a>
             </div>
